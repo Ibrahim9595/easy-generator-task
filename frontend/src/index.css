@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes fade-in-slide {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-slide {
+    animation: fade-in-slide 0.6s ease-out forwards;
+  }
+}

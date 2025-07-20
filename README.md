@@ -6,3 +6,5 @@ This is the task for easy generator it has both frontend and backend directories
 
 - Install dependencies in each of them individually
 - You can run them separately
+- Or better 
+    - use `docker-compose up -d`
